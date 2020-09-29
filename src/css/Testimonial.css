@@ -1,0 +1,62 @@
+.testimonial{
+    padding: 50px 0 80px;
+}
+.testimonial .testimonial-item img {
+    position: relative;
+    width: 80px;
+    border-radius: 80px;
+    margin-bottom: 15px;
+}
+
+.testimonial .testimonial-item h2 {
+    position: relative;
+    color: #092a49;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    padding-bottom: 3px;
+}
+
+.testimonial .testimonial-item h2:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    top:auto;
+    bottom: 0;
+    left: 0;
+    background: #0796fe;
+    transition: .3s;
+    border-bottom: none;
+}
+.testimonial .testimonial-item:hover h2:after {
+    width: 60px;
+}
+.testimonial .testimonial-item h3 {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.testimonial .slick-arrow{
+     bottom:-90px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+
+.testimonial .slick-arrow.slick-prev{
+    right: 65px;
+}
+
+.testimonial .slick-arrow.slick-next{
+    left: 65px;
+}
+
+.testimonial-item{
+    padding: 10px;
+}
